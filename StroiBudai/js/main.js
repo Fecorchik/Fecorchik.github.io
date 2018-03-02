@@ -12,8 +12,8 @@ jQuery(document).ready(function($) {
       });
 
 	$('.slider-blocks').slick({
-	  nextArrow: '<img class="slick-btn-next" src="StroiBudai/img/sri1.png" alt="next">',
-    prevArrow: '<img class="slick-btn-prev" src="StroiBudai/img/sle1.png" alt="prev">',
+	  nextArrow: '<img class="slick-btn-next" src="/img/sri1.png" alt="next">',
+    prevArrow: '<img class="slick-btn-prev" src="/img/sle1.png" alt="prev">',
     slidesToShow: 1,
   	slidesToScroll: 1,
   	fade: true,
@@ -22,8 +22,8 @@ jQuery(document).ready(function($) {
 
 
 $('.pup-up-slider-big').slick({
-  nextArrow: '<img class="pup-up-right" src="StroiBudai/img/pup-up/pr.png" alt="next">',
-  prevArrow: '<img class="pup-up-left" src="StroiBudai/img/pup-up/pl.png" alt="prev">',
+  nextArrow: '<img class="pup-up-right" src="/img/pup-up/pr.png" alt="next">',
+  prevArrow: '<img class="pup-up-left" src="/img/pup-up/pl.png" alt="prev">',
   arrows:true,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -43,8 +43,8 @@ $('.pup-up-slider-little').slick({
 
 
 $('.otzivi').slick({
-  nextArrow: '<img class="slick-btn-next" src="StroiBudai/img/sri1.png" alt="next">',
-  prevArrow: '<img class="slick-btn-prev" src="StroiBudai/img/sle1.png" alt="prev">',
+  nextArrow: '<img class="slick-btn-next" src="/img/sri1.png" alt="next">',
+  prevArrow: '<img class="slick-btn-prev" src="/img/sle1.png" alt="prev">',
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: true,
