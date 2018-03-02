@@ -12,8 +12,8 @@ jQuery(document).ready(function($) {
       });
 
 	$('.slider-blocks').slick({
-	  nextArrow: '<img class="slick-btn-next" src="../img/sri1.png" alt="next">',
-    prevArrow: '<img class="slick-btn-prev" src="../img/sle1.png" alt="prev">',
+	  nextArrow: '<img class="slick-btn-next" src="/img/sri1.png" alt="next">',
+    prevArrow: '<img class="slick-btn-prev" src="/img/sle1.png" alt="prev">',
     slidesToShow: 1,
   	slidesToScroll: 1,
   	fade: true,
