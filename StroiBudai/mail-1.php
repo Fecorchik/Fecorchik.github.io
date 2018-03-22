@@ -1,5 +1,5 @@
 <?php
-$recepient = "";
+$recepient = "worgen555@bk.ru";
 $sitename = "Strou MG";
 
 $name = trim($_POST["name"]);
