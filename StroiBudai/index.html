@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="slick/slick.css">
   <!--Custom styles for this -->
   <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <!--   <div class="top-btn-nav"> -->
@@ -720,8 +720,8 @@
                 <p>Оставьте свой телефон<br>
                   и мы свяжемся<br>
                   с Вами в течение 30 минут</p>
-                  <form action="" class="pup-up-form">
-                    <input type="text" name="your-name" placeholder="Ваше имя" class="pup-up-form-name">
+                  <form action="" id="form-studio" class="pup-up-form">
+                    <input type="text" name="name" placeholder="Ваше имя" class="pup-up-form-name">
                     <input type="tel" name="phone" placeholder="Ваш телефон" class="pup-up-form-phone">
                     <button class="btn-submit">Узнать стоимость</button>
                   </form>
@@ -810,8 +810,8 @@
                   <p>Оставьте свой телефон<br>
                     и мы свяжемся<br>
                     с Вами в течение 30 минут</p>
-                    <form action="" class="pup-up-form">
-                      <input type="text" name="your-name" placeholder="Ваше имя" class="pup-up-form-name">
+                    <form action="" id="form-one-room" class="pup-up-form">
+                      <input type="text" name="name" placeholder="Ваше имя" class="pup-up-form-name">
                       <input type="tel" name="phone" placeholder="Ваш телефон" class="pup-up-form-phone">
                       <button class="btn-submit">Узнать стоимость</button>
                     </form>
@@ -897,8 +897,8 @@
                     <p>Оставьте свой телефон<br>
                       и мы свяжемся<br>
                       с Вами в течение 30 минут</p>
-                      <form action="" class="pup-up-form">
-                        <input type="text" name="your-name" placeholder="Ваше имя" class="pup-up-form-name">
+                      <form action="" id="form-two-room" class="pup-up-form">
+                        <input type="text" name="name" placeholder="Ваше имя" class="pup-up-form-name">
                         <input type="tel" name="phone" placeholder="Ваш телефон" class="pup-up-form-phone">
                         <button class="btn-submit">Узнать стоимость</button>
                       </form>
@@ -988,8 +988,8 @@
                       <p>Оставьте свой телефон<br>
                         и мы свяжемся<br>
                         с Вами в течение 30 минут</p>
-                        <form action="" class="pup-up-form">
-                          <input type="text" name="your-name" placeholder="Ваше имя" class="pup-up-form-name">
+                        <form action="" id="form-three-one-room" class="pup-up-form">
+                          <input type="text" name="name" placeholder="Ваше имя" class="pup-up-form-name">
                           <input type="tel" name="phone" placeholder="Ваш телефон" class="pup-up-form-phone">
                           <button class="btn-submit">Узнать стоимость</button>
                         </form>
@@ -1075,8 +1075,8 @@
                         <p>Оставьте свой телефон<br>
                           и мы свяжемся<br>
                           с Вами в течение 30 минут</p>
-                          <form action="" class="pup-up-form">
-                            <input type="text" name="your-name" placeholder="Ваше имя" class="pup-up-form-name">
+                          <form action="" id="form-three-two-room" class="pup-up-form">
+                            <input type="text" name="name" placeholder="Ваше имя" class="pup-up-form-name">
                             <input type="tel" name="phone" placeholder="Ваш телефон" class="pup-up-form-phone">
                             <button class="btn-submit">Узнать стоимость</button>
                           </form>
@@ -1415,9 +1415,9 @@
                       от 100 000 рублей</h3>
                     </div>
                     <div class="klining-form">
-                      <form action="">
-                        <input type="text" placeholder="Ваше имя">
-                        <input type="text" placeholder="Ваш телефон">
+                      <form action="" id="form-klining">
+                        <input type="text" name="name" placeholder="Ваше имя">
+                        <input type="text" name="phone" placeholder="Ваш телефон">
                         <button class="btn-submit">Узнать подробнее</button>
                       </form>
                     </div>
@@ -1694,9 +1694,9 @@
                 </div>
                 <div class="row justify-content-center">
                   <div class="obratka-form">
-                    <form action="" id="form">
-                      <input type="text" placeholder="Ваше имя" required >
-                      <input type="text" placeholder="Ваш телефон" required >
+                    <form action="" id="obr-form-main">
+                      <input type="text" name="name" placeholder="Ваше имя" required >
+                      <input type="text" name="phone" placeholder="Ваш телефон" required >
                       <!-- <input class="klining-submit" type="submit" value="Узнать подробнее"> -->
                       <button class="btn-submit">Узнать подробнее</button>
                     </form>
@@ -1726,10 +1726,10 @@
               </div>
               <div class="row justify-content-center">
                 <div class="obratka-form">
-                  <form action="" id="form">
-                    <input type="text" placeholder="Ваше имя" required >
-                    <input type="text" placeholder="Ваш телефон" required >
-                    <textarea name="text" placeholder="Ваш вопрос"></textarea>
+                  <form action="" id="form-question">
+                    <input type="text" name="name" placeholder="Ваше имя" required >
+                    <input type="text" name="phone" placeholder="Ваш телефон" required >
+                    <textarea name="text" name="text" placeholder="Ваш вопрос"></textarea>
                     <button class="btn-submit">Узнать подробнее</button>
                   </form>
                 </div>
@@ -1748,8 +1748,8 @@
 
   <footer>
     <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-md-auto">
+      <div class="row align-items-center">
+        <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
           <div id="Contact" class="main-top-logo">
             <div class="footer-logo-img">
               <img src="img/logo2.png" alt="Stroy MG">
@@ -1760,15 +1760,44 @@
             </div>
           </div>
         </div>
-        <div class="col-md-auto">
-          <div class="call">
-            <p>+7 926 692 53 08</p>
+        <!-- col-md-auto -->
+
+      <div class="col-xl-6 col-xl-offset-1 col-lg-5 col-lg-offset-1 col-md-12 col-sm-12 col-12">
+        <div class="social">
+          <div class="social-wrap">
+          <div class="social-circle-wrap">
+            <div class="social-circle odnoklassniki-circle">
+                  <div class="social-icon"><a href="#"><i class="icon-odnoklassniki"></i></a></div>
+            </div>
+            <!-- social-circle" -->
           </div>
-          <div class="mail">
-            <p>remont@stroymg.ru</p>
+          <!-- cisoa-circle-wrap -->
+          <div class="social-circle-wrap">
+            <div class="social-circle instagram-circle">
+                  <div class="social-icon"><a href="#"><i class="icon-instagram"></i></a></div>
+            </div>
+            <!-- social-circle" -->
+          </div>
+          <!-- cisoa-circle-wrap -->
+          </div>
+          <!-- social-wrap -->
+        </div>
+        <!-- social -->
+      </div>
+
+        <div class="col-xl-3 col-xl-offset-1 col-lg-3 col-md-12  col-sm-12 col-12">
+          <div class="footer-info">
+            <div class="call">
+              <p>+7 926 692 53 08</p>
+            </div>
+            <div class="mail">
+              <p>remont@stroymg.ru</p>
+            </div>
           </div>
         </div>
+        <!-- col-md-auto -->
       </div>
+      <!-- row -->
     </div>
   </footer>
 
