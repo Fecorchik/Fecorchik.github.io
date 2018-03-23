@@ -1343,7 +1343,6 @@ footer {
   padding: 2rem;
   color: black;
   background-color: #f7f7f7;
-  margin-bottom: 2rem;
 }
 .footer-circle-wrap {
   display: -webkit-box;
@@ -1356,6 +1355,7 @@ footer {
   font-size: 2.4rem;
   margin: 0;
   text-align: right;
+  color: black;
 }
 .mail p {
   font-size: 1.5rem;
@@ -1480,7 +1480,7 @@ footer {
   margin-left: 2rem;
   z-index: 50;
 }
-.odnoklassniki-circle:hover a i {
+.odnoklassniki-circle:hover i {
   color: white;
 }
 .instagram-circle:hover {
@@ -1504,7 +1504,7 @@ footer {
   margin-left: 2rem;
   z-index: 50;
 }
-.instagram-circle:hover a i {
+.instagram-circle:hover i {
   color: white;
 }
 .social {
@@ -1513,7 +1513,7 @@ footer {
 .social-wrap a {
   display: inline-block;
 }
-.social-wrap a i {
+.social-wrap i {
   font-size: 2rem;
   color: #a4a7ad;
 }
